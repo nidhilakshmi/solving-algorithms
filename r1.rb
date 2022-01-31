@@ -1,12 +1,3 @@
-
-
-
-
-def swap(a,b)
-    a = a+b
-    b = a-b
-    a = a-b
-    return a,b
-end
-
-puts swap(1,2)
+#Write Ruby program to get ruby version with patch number.
+puts "Ruby version:"+RUBY_VERSION
+puts "Ruby Patch LEVEL:"+RUBY_PATCHLEVEL.to_s
