@@ -12,12 +12,24 @@
 
 # 3.Write a Ruby program to create a new string which is n copies of a given string where n is a non-negative integer.
 
-    def multiple(str,n)
-        return str*n
-    end
+    # def multiple(str,n)
+    #     return str*n
+    # end
 
-    puts multiple('b',1)
-    puts multiple('b',4)
+    # puts multiple('b',1)
+    # puts multiple('b',4)
+
+#Write a Ruby program which accept the radius of a circle from the user and compute the parameter and area.
+# circumference c = 2*3.14*r
+ # area a = 3.14*r*r
+
+ radius = 5
+
+ perimeter = 2 * 3.141592653 * radius
+ area = 3.141592653 * radius * radius
+
+ puts "perimeter: #{perimeter}"
+ puts "area: #{area}"
 
 
 
